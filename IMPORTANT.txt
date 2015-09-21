@@ -1,0 +1,7 @@
+IMPORTANT!!!!
+You must not delete or move to a separated folder from Mikicat-Antivirus.py the LICENSE.txt file, otherwhise it will show you a FileNotFoundError and the program will stop.
+==============================================================
+You must not delete or move to a separated folder from Mikicat-Antivirus.py this file, or it will happen like if you delete LICENSE.txt
+==============================================================
+Thank you.
+--Mikicat

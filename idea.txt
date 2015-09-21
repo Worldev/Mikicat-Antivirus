@@ -1,0 +1,5 @@
+The idea of making this antivirus appeared when I was thinking about doing something with Python.
+I didn't know what to do, but then I realized that I could group my favourite things: Ethical Hacking, Free Software & Knowledge and Programming, so this appeared. 
+==============================================================
+I hope it will be useful to you, and stay updated visiting the antivirus page! 
+(http://mikicat-antivirus.tk)
