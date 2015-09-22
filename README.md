@@ -15,7 +15,7 @@ IF YOU HAVE LINUX you must put /etc/init.b
 Then, on directory4 you must change C:/Users/me/Downloads TO C:/Users/YourUsername/Downloads.
 IF YOU HAVE LINUX you must put /home/user/Downloads
 
-Important: You mustn't delete the LICENSE.txt or IMPORTANT.txt or idea.txt because you'll have problems executing the antivirus.
+###Important: You mustn't delete the LICENSE.txt or IMPORTANT.txt or idea.txt because you'll have problems executing the antivirus.
 
 P.D: You should have a Full Antivirus apart of this one, because there are only few virus registered. 
 
