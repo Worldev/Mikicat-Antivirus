@@ -1,5 +1,8 @@
 #This antivirus is under General Public License version 3 
 
+##You need Python 3.4
+
+##Setting it up
 You must change the directory line, C:/Users/me/AppData/Local TO C:/Users/YourUsername/AppData. 
 IF YOU HAVE LINUX You must put ~/.config, ~/$APP_NAME (see other examples in the code shell)
 
