@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #################################### BY MIKICAT ###############################################
-###IF YOU DETECT BUGS, PLEASE REPORT THEM TO http://mikicatantivirus.weebly.com/contact.html ##
+###IF YOU DETECT BUGS, PLEASE OPEN AN ISSUE OR REPORT THEM TO http://mikicatantivirus.weebly.com/contact.html ##
 
 print("All printed here are only references.")
 import os
