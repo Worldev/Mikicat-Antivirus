@@ -3,18 +3,31 @@
 #################################### BY MIKICAT ###############################################
 ###IF YOU DETECT BUGS, PLEASE OPEN AN ISSUE OR REPORT THEM TO http://mikicatantivirus.weebly.com/contact.html ##
 
-print("All printed here are only references.")
 import os
+import platform
 import time
 from tkinter import *
 
+# Auto dir setup.
+system = platform.system()
+if system = "Windows":
+    linux = False
+    windows = True
+elif system = "Linux":
+    linux = True
+    windows = False
+else:
+    print("Mikicat Antivirus is not compatible with your operative system.")
+    os._exit(1)
+home = os.path.expanduser('~')
+
 extfiles = []
 files = []
-# Default windows configuration for Windows 7 & 8. On Windows XP Users is Documents and Settings.
-directory = "C:/Users/me/AppData/Local" # Directory --> Modify this (For Linux Users: This folder does not exist in Linux. You can put the Appdata of an app, ~/.TheAppYouWant [eg. ~/.mozilla/firefox], or ~/.config or ./$APP_NAME for miscellaneous apps
-directory2 = "C:/Windows/system32" # Directory --> Modify this (For Linux Users: /sbin)
-directory3 = "C:/Users/me/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup" # Linux /etc/init.d
-directory4 = "C:/Users/me/Downloads" # Directory --> Modify this (For Linux Users: /home/user/Downloads)
+
+directory = ("{0}AppData/Local".format(home) if windows else "{0}.config".format(home))
+directory2 = ("C:/Windows/system32" if windows else "/sbin")
+directory3 = ("{0}AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup".format(home) if windows else "/etc/init.d")
+directory4 = "{0}Downloads".format(home)
 
 # Extensions
 ext = '.bat'
