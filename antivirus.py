@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 #################################### BY MIKICAT ###############################################
+###############################A CATBOTS AFFILIATE#############################################
 ###IF YOU DETECT BUGS, PLEASE OPEN AN ISSUE OR REPORT THEM TO http://mikicatantivirus.weebly.com/contact.html ##
 
 import os
