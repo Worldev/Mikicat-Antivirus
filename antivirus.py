@@ -135,7 +135,7 @@ def done4():
     
 def yes4():
     for item in extfiles:
-        os.remove(directory3 + "/" + item)
+        os.remove(directory4 + ("/" if linux else "\\") + item)
     del files[:]
     del extfiles[:]
     root = Tk()
@@ -193,7 +193,7 @@ def done3():
 
 def yes3():
     for item in extfiles:
-        os.remove(directory3 + "/" + item)
+        os.remove(directory3 + ("/" if linux else "\\") + item)
     del files[:]
     del extfiles[:]
     root = Tk()
@@ -249,7 +249,7 @@ def done2():
 
 def yes2():
     for item in extfiles:
-        os.remove(directory2 + "/" + item)
+        os.remove(directory2 + ("/" if linux else "\\") + item)
     del files[:]
     del extfiles[:]
     root = Tk()
@@ -305,7 +305,7 @@ def done1():
 
 def yes1():
     for item in extfiles:
-        os.remove(directory + "/" + item)
+        os.remove(directory + ("/" if linux else "\\") + item)
     del files[:]
     del extfiles[:]
     root = Tk()
