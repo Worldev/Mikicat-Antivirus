@@ -9,11 +9,10 @@ import time
 from tkinter import *
 
 # Auto dir setup.
-system = platform.system()
-if system = "Windows":
+if platform.system() == "Windows":
     linux = False
     windows = True
-elif system = "Linux":
+elif platform.system() == "Linux":
     linux = True
     windows = False
 else:
