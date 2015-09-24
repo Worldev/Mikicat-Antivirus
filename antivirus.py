@@ -26,7 +26,8 @@ files = []
 directory = ("{0}\AppData\Local".format(home) if windows else "{0}/.config".format(home))
 directory2 = ("C:\Windows\system32" if windows else "/sbin")
 directory3 = ("{0}\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup".format(home) if windows else "/etc/init.d")
-directory4 = "{0}\Downloads".format(home)
+directory4 = ("{0}\Downloads".format(home)
+if windows else "{0}/Downloads".format(home))
 
 # Extensions
 ext = '.bat'
@@ -400,3 +401,4 @@ Button(master, text="Idea", underline=0, command=idea).grid(row=8, column=5, sti
 print("Starting tkinter cleanly")
 
 mainloop()
+.delf
