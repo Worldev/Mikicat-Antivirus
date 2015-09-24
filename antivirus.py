@@ -352,7 +352,7 @@ def detection1():
     if extfiles == []:  
         done1()
 
-lic = open("LICENSE.txt").read()
+lic = open("LICENSE").read()
 imp = open("IMPORTANT.txt").read()
 helptxt = open("help.txt").read()
 def licinfo():
@@ -401,4 +401,4 @@ Button(master, text="Idea", underline=0, command=idea).grid(row=8, column=5, sti
 print("Starting tkinter cleanly")
 
 mainloop()
-.delf
+
