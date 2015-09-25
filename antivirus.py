@@ -360,7 +360,7 @@ def licinfo():
     print('opening')
     tk = Tk()
     tk.resizable(0, 0)
-    tk.title("License --> Content from LICENSE.txt")
+    tk.title("License")
     Label(tk, text=lic).grid(row=1, sticky=W)
     Button(tk, text="Quit", command=tk.destroy).grid(row=2, column=2, sticky=W)
 def important():
