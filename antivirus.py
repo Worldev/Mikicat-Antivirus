@@ -353,7 +353,7 @@ def detection1():
     if extfiles == []:  
         done1()
 
-lic = "This program is free software: You can redistribute it and/or modify it under the terms of the General Public License version 3")
+lic = "This program is free software: You can redistribute it and/or modify it under the terms of the General Public License version 3"
 imp = open("IMPORTANT.txt").read()
 helptxt = open("help.txt").read()
 def licinfo():
