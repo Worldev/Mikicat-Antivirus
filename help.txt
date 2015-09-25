@@ -1,4 +1,4 @@
-Help using Mikicat's Antivirus™:
+Help using Mikicat's Antivirus:
 
 1. Setting configuration
 
