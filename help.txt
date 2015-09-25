@@ -1,18 +1,6 @@
 Help using Mikicat's Antivirus:
 
-1. Setting configuration
-
-To edit the settings you must have Python 3.4 installed (otherwhise it won't work). Right click with the mouse, and click "Edit with IDLE"
-
-There you have a comment to the lines you must change:
-
-You must change the directory line, C:/Users/me/AppData/Local TO C:/Users/YourUsername/AppData. IF YOU HAVE LINUX You must put ~/.config, ~/$APP_NAME (see other examples in the code shell) 
-IF YOU HAVE LINUX you must change the directory2 line, C:/Windows/system32 TO /sbin 
-Then, on directory3 you must change C:/Users/me/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup TO C:/Users/YourUsername/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup. IF YOU HAVE LINUX you must put /etc/init.b 
-Then, on directory4 you must change C:/Users/me/Downloads TO C:/Users/YourUsername/Downloads. IF YOU HAVE LINUX you must put /home/user/Downloads 
-
-
-2. Running the Antivirus
+1. Running the Antivirus
 
 Important: You mustn't delete the LICENSE or IMPORTANT.txt or idea.txt or this file because you'll have problems executing the antivirus.
 
