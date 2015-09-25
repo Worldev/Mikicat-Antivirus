@@ -353,7 +353,7 @@ def detection1():
     if extfiles == []:  
         done1()
 
-lic = open("LICENSE").read()
+lic = open("LICENSE.txt").read()
 imp = open("IMPORTANT.txt").read()
 helptxt = open("help.txt").read()
 def licinfo():
