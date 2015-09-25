@@ -14,7 +14,7 @@ Then, on directory4 you must change C:/Users/me/Downloads TO C:/Users/YourUserna
 
 2. Running the Antivirus
 
-Important: You mustn't delete the LICENSE.txt or IMPORTANT.txt or idea.txt or this file because you'll have problems executing the antivirus.
+Important: You mustn't delete the LICENSE or IMPORTANT.txt or idea.txt or this file because you'll have problems executing the antivirus.
 
 To run the antivirus you only have to double click the Mikicat-Antivirus.py file (open it normal). 
 Once opened you will see different buttons:
