@@ -133,6 +133,12 @@ def done4():
     Button(root, text="Quit", command=root.destroy).grid(row=4, column=2, sticky=W)
     Button(root, text="Idea", command=idea).grid(row=4, sticky=W)
     print("4")
+
+def finish():
+    root = Tk()
+    Label(root, text="Thanks for using Miquel's Antivirus!").grid(row=3, sticky=W)
+    Button(root, text="Quit", command=root.destroy).grid(row=4, column=2, sticky=W)
+    Button(root, text="Idea", command=idea).grid(row=4, sticky=W)
     
 def yes4():
     for item in extfiles:
@@ -143,10 +149,8 @@ def yes4():
     root.title("Done")
     root.resizable(0, 0)
     Label(root, text="Done").grid(row=1, sticky=W)
-    Button(root, text="Quit", command=root.destroy).grid(row=2, sticky=W)
+    Button(root, text="Finish", command=finish).grid(row=2, sticky=W)
     print("Done")
-    if extfiles != []:
-        done3()
         
 def detection4():
     del files[:]
