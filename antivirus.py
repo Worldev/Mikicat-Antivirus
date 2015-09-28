@@ -114,7 +114,7 @@ ext81 = '.epub.exe'
 # Extensions
 
 master = Tk()
-ideatxt = open("idea.txt").read()
+ideatxt = open("assets/idea.txt").read()
 def idea():
     print('opening')
     tk = Tk()
@@ -357,8 +357,8 @@ def detection1():
         done1()
 
 lic = "This program is free software: You can redistribute it and/or modify it under the terms of the General Public License version 3"
-imp = open("IMPORTANT.txt").read()
-helptxt = open("help.txt").read()
+imp = open("assets/IMPORTANT.txt").read()
+helptxt = open("assets/help.txt").read()
 def licinfo():
     print('opening')
     tk = Tk()
