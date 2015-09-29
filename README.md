@@ -8,4 +8,4 @@ Licensed on GPLv3 license.
 
 ***Important:*** You mustn't delete the LICENSE.txt or IMPORTANT.txt or idea.txt because you'll have problems executing the antivirus.
 
-***Note:*** You should have a Full Antivirus apart of this one, because there are only few virus registered. 
+***Note:*** You should have a Full Antivirus apart of this one, because there are only few virus registered. We are working to make this antivirus better.
