@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 #################################### BY MIKICAT ###############################################
-###############################A CATBOTS AFFILIATE#############################################
+###############################A WORLDEV AFFILIATE#############################################
 ###IF YOU DETECT BUGS, PLEASE OPEN AN ISSUE OR REPORT THEM TO http://mikicatantivirus.weebly.com/contact.html ##
 
 import os
@@ -394,7 +394,7 @@ label.grid(row=1)
 Label(master, text="Today is %s !" % time.asctime()).grid(row=2, sticky=W)
 Label(master, text="\n").grid(row=3, sticky=W)
 Label(master, text="\n").grid(row=5, sticky=W)
-Label(master, text="By Mikicat").grid(row=6, sticky=W)
+Label(master, text="By Mikicat || A Worldev project").grid(row=6, sticky=W)
 Label(master, text="\n").grid(row=7, sticky=W)
 Button(master, text="Start", underline=0, command=detection1).grid(row=8, column=2, sticky=W)
 Button(master, text="Quit", underline=0, command=destroy).grid(row=8, sticky=W)
