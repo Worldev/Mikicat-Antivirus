@@ -1,5 +1,6 @@
 # Mikicat Antivirus
 
+Copyright (C) Worldev team.
 Mikicat Antivirus is a antivirus made by @mikicat and the Worldev team. It helps you remove the viruses from your computer.
 
 Licensed on GPLv3 license.
