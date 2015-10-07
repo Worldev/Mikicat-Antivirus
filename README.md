@@ -3,6 +3,7 @@
 Mikicat Antivirus is a antivirus made by @mikicat and the Worldev team. It helps you remove the viruses from your computer.
 
 Licensed on GPLv3 license.
+Everyone is welcome to download and use it, deploy it and to re-distribute it. The code is provided «as-is» and in no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages.
 
 ***Needed:*** Python 3.4
 
