@@ -368,7 +368,7 @@ def licinfo():
     tk.title("License")
     Label(tk, text=lic).grid(row=1, sticky=W)
     Button(tk, text="Return", command=tk.destroy).grid(row=2, column=1, sticky=W)
-    Button(tk, text="GPLv3", command=gpl).grid(row=2, column=2, sticky=W)
+    Button(tk, text="GPLv3", command=gpl).grid(row=2, column=0, sticky=W)
 def important():
     print('opening')
     tk = Tk()
