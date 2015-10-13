@@ -113,7 +113,6 @@ ext80 = '.bps'
 ext81 = '.epub.exe'
 # Extensions
 
-master = Tk()
 ideatxt = open("assets/idea.txt").read()
 def idea():
     print('opening')
@@ -383,26 +382,28 @@ def infohelp():
     tk.title("Help --> Content from help.txt")
     Label(tk, text=helptxt).grid(row=1, sticky=W)
     Button(tk, text="Return", command=tk.destroy).grid(row=2, sticky=W)
-    
-master.title("Mikicat's Antivirus™")
-master.resizable(0, 0)
-Button(master, text="Help", command=infohelp).grid(row=0, column=5, sticky=W)
-photo = PhotoImage(file="antivirus2.gif")
-label = Label(image=photo)
-label.image = photo 
-label.grid(row=1)
-Label(master, text="Today is %s !" % time.asctime()).grid(row=2, sticky=W)
-Label(master, text="\n").grid(row=3, sticky=W)
-Label(master, text="\n").grid(row=5, sticky=W)
-Label(master, text="By Mikicat || A Worldev project").grid(row=6, sticky=W)
-Label(master, text="\n").grid(row=7, sticky=W)
-Button(master, text="Start", underline=0, command=detection1).grid(row=8, column=2, sticky=W)
-Button(master, text="Quit", underline=0, command=destroy).grid(row=8, sticky=W)
-Button(master, text="License", underline=0, command=licinfo).grid(row=8, column=3, sticky=W)
-Button(master, text="Important", underline=0, command=important).grid(row=8, column=4, sticky=W)
-Button(master, text="Idea", underline=0, command=idea).grid(row=8, column=5, sticky=W)
 
-print("Starting tkinter cleanly")
+def main():
+    master = Tk()
+    master.title("Mikicat's Antivirus™")
+    master.resizable(0, 0)
+    Button(master, text="Help", command=infohelp).grid(row=0, column=5, sticky=W)
+    photo = PhotoImage(file="antivirus2.gif")
+    label = Label(image=photo)
+    label.image = photo 
+    label.grid(row=1)
+    Label(master, text="Today is %s !" % time.asctime()).grid(row=2, sticky=W)
+    Label(master, text="\n").grid(row=3, sticky=W)
+    Label(master, text="\n").grid(row=5, sticky=W)
+    Label(master, text="By Mikicat || A Worldev project").grid(row=6, sticky=W)
+    Label(master, text="\n").grid(row=7, sticky=W)
+    Button(master, text="Start", underline=0, command=detection1).grid(row=8, column=2, sticky=W)
+    Button(master, text="Quit", underline=0, command=destroy).grid(row=8, sticky=W)
+    Button(master, text="License", underline=0, command=licinfo).grid(row=8, column=3, sticky=W)
+    Button(master, text="Important", underline=0, command=important).grid(row=8, column=4, sticky=W)
+    Button(master, text="Idea", underline=0, command=idea).grid(row=8, column=5, sticky=W)
 
+    print("Starting tkinter cleanly")
+main()
 mainloop()
 
