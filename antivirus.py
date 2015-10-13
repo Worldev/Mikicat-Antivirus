@@ -358,20 +358,23 @@ def detection1():
 lic = "This program is free software: You can redistribute it and/or modify it under the terms of the General Public License version 3"
 imp = open("assets/IMPORTANT.txt").read()
 helptxt = open("assets/help.txt").read()
+def gpl():
+    webbrowser.open("http://www.gnu.org/licenses/gpl-3.0.en.html")
 def licinfo():
     print('opening')
     tk = Tk()
     tk.resizable(0, 0)
     tk.title("License")
     Label(tk, text=lic).grid(row=1, sticky=W)
-    Button(tk, text="Quit", command=tk.destroy).grid(row=2, column=2, sticky=W)
+    Button(tk, text="Return", command=tk.destroy).grid(row=2, column=1, sticky=W)
+    Button(tk, text="GPLv3", command=gpl).grid(row=2, column=2, sticky=W)
 def important():
     print('opening')
     tk = Tk()
     tk.resizable(0, 0)
     tk.title("IMPORTANT --> Content from IMPORTANT.txt")
     Label(tk, text=imp).grid(row=1, sticky=W)
-    Button(tk, text="Quit", command=tk.destroy).grid(row=2, column=2, sticky=W)
+    Button(tk, text="Return", command=tk.destroy).grid(row=2, column=2, sticky=W)
 def destroy():
     master.destroy()
     print("Exited cleanly")
