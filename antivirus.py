@@ -7,6 +7,7 @@
 import os
 import platform
 import time
+import webbrowser
 from tkinter import *
 
 # Auto dir setup.
