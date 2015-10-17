@@ -412,6 +412,11 @@ def main():
     Button(master, text="Idea", underline=0, command=idea).grid(row=8, column=5, sticky=W)
 
     print("Starting tkinter cleanly")
-main()
+def __init__(self, tk):
+    self.tk = Tk()
+    self.Label(self.tk, text="A Worldev Project").pack(anchor=CENTER)
+    self.Button(self.tk, text="Continue" , command=main).pack(anchor=CENTER)
+
+
 mainloop()
 
